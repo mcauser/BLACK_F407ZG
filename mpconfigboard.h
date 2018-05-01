@@ -9,7 +9,6 @@
 #define MICROPY_HW_ENABLE_RNG       (1)
 #define MICROPY_HW_ENABLE_RTC       (1)
 #define MICROPY_HW_ENABLE_DAC       (1)
-#define MICROPY_HW_ENABLE_CAN       (1)
 #define MICROPY_HW_ENABLE_USB       (1)
 
 // HSE is 8MHz
@@ -105,11 +104,10 @@
 #define MICROPY_HW_SPI3_MOSI (pin_B5)  // PB5,PC12
 
 // CAN busses
-// CAN1_TX PB9,PD1,PA12
-// CAN1_RX PB8,PD0,PA11
-
-// CAN2_TX PB6,PB13
-// CAN2_RX PB5,PB12
+#define MICROPY_HW_CAN1_TX (pin_B9) // PB9,PD1,PA12
+#define MICROPY_HW_CAN1_RX (pin_B8) // PB8,PD0,PA11
+#define MICROPY_HW_CAN2_TX (pin_B6) // PB6,PB13
+#define MICROPY_HW_CAN2_RX (pin_B5) // PB5,PB12
 
 // DAC
 // DAC_OUT1 PA4
