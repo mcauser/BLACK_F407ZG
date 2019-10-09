@@ -1,8 +1,8 @@
-# Black STM32F407ZGT6
+# MCUDev Black STM32F407ZGT6
 
-MicroPython board definition files for the black STM32F407ZGT6 dev board.
+MicroPython board definition files for the MCUDev black STM32F407ZGT6 dev board.
 
-**Brand:** ACELEX (unlabeled)
+**Brand:** MCUDev
 
 **Markings:** STM32F4XX STM32_F4VE V3.0 1606
 
