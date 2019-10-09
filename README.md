@@ -24,7 +24,7 @@ You can buy one for around $16 USD (Dec 2017) on [AliExpress].
 
 ```
 cd micropython/ports/stm32/boards
-git clone https://github.com/SpotlightKid/BLACK_F407ZG.git
+git clone https://github.com/mcauser/BLACK_F407ZG.git
 ```
 
 * Disconnect the board from USB
@@ -91,8 +91,8 @@ $ screen /dev/ttyACM0
 * [STM32F407ZG on st.com](http://www.st.com/content/st_com/en/products/microcontrollers/stm32-32-bit-arm-cortex-mcus/stm32-high-performance-mcus/stm32f4-series/stm32f407-417/stm32f407zg.html)
 * Buy on [AliExpress] or search for "STM32F407ZGT6 development board"
 * [STM32F407ZG datasheet](http://www.st.com/resource/en/datasheet/stm32f407zg.pdf)
-* [STM32F407ZGT6 board dimensions](https://github.com/SpotlightKid/BLACK_F407ZG/blob/master/docs/STM32F407ZGT6_board_dimensions.jpg)
-* [STM32F407ZGT6 board schematics](https://github.com/SpotlightKid/BLACK_F407ZG/blob/master/docs/STM32F407ZGT6_board_schematics.jpg)
+* [STM32F407ZGT6 board dimensions](https://github.com/mcauser/BLACK_F407ZG/blob/master/docs/STM32F407ZGT6_board_dimensions.jpg)
+* [STM32F407ZGT6 board schematics](https://github.com/mcauser/BLACK_F407ZG/blob/master/docs/STM32F407ZGT6_board_schematics.jpg)
 
 
 [AliExpress]: https://www.aliexpress.com/item/Arm-development-board-Cortex-M4-STM32F407ZGT6-development-board-M4-STM32F4-core-board/32826108064.html
