@@ -291,14 +291,13 @@ screen /dev/ttyACM0 115200
 * Buy on [AliExpress] or search for "STM32F407ZGT6 development board"
 * Buy on [Taobao](https://detail.tmall.com/item.htm?id=559386249947)
 * [STM32F407ZG datasheet](http://www.st.com/resource/en/datasheet/stm32f407zg.pdf)
-* [STM32F407ZGT6 board dimensions](https://github.com/mcauser/BLACK_F407ZG/blob/master/docs/STM32F407ZGT6_board_dimensions.jpg)
-* [STM32F407ZGT6 board schematics](https://github.com/mcauser/BLACK_F407ZG/blob/master/docs/STM32F407ZGT6_board_schematics.jpg)
+* [STM32F407ZGT6 schematics](https://github.com/mcauser/BLACK_F407ZG/blob/master/docs/STM32F407ZGT6_schematics.pdf)
 
 ### Related boards
 
-* [MCUDev Black STM32F407VET6]
-* [MCUDev Black STM32F407ZET6]
-* [MCUDev Black STM32F407ZGT6] - this board
+* [MCUDev Black STM32F407VET6](https://github.com/mcauser/BLACK_F407VE)
+* [MCUDev Black STM32F407ZET6](https://github.com/mcauser/BLACK_F407ZE)
+* [MCUDev Black STM32F407ZGT6](https://github.com/mcauser/BLACK_F407ZG) - this board
 * [MCUDev DevEBox STM32F407VET6](https://github.com/mcauser/MCUDEV_DEVEBOX_F407VET6)
 * [MCUDev DevEBox STM32F407VGT6](https://github.com/mcauser/MCUDEV_DEVEBOX_F407VGT6)
 * [VCC GND STM32F407VET6 Mini](https://github.com/mcauser/VCC_GND_F407VE)
