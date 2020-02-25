@@ -4,7 +4,7 @@ MicroPython board definition files for the MCUDev black STM32F407ZGT6 dev board.
 
 **Brand:** MCUDev
 
-**Markings:** STM32F4XX STM32_F4VE V3.0 1606
+**Markings:** STM32F4XX STM32_F4XX V3.0 1606
 
 **Note:** this is a variant of the [MCUDev Black STM32F407ZET6] board. This board has a
 **STM32F407ZG** MCU instead of a STM32F407ZE and 1024 Kb of flash memory
