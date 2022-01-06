@@ -4,7 +4,7 @@
 
 // 1 = use internal flash (1024 KByte)
 // 0 = use onboard SPI flash (2 MByte) Winbond W25Q16
-#define MICROPY_HW_ENABLE_INTERNAL_FLASH_STORAGE (1)
+#define MICROPY_HW_ENABLE_INTERNAL_FLASH_STORAGE (0)
 
 #define MICROPY_HW_HAS_SWITCH       (1)		// has 2 buttons KEY0=PE4, KEY1=PE3
 #define MICROPY_HW_HAS_FLASH        (1)
@@ -154,6 +154,7 @@ extern struct _spi_bdev_t spi_bdev;
 )
 #define MICROPY_HW_BDEV_READBLOCKS(dest, bl, n) spi_bdev_readblocks(&spi_bdev, (dest), (bl), (n))
 #define MICROPY_HW_BDEV_WRITEBLOCKS(src, bl, n) spi_bdev_writeblocks(&spi_bdev, (src), (bl), (n))
+#define MICROPY_HW_SPIFLASH_ENABLE_CACHE (1)
 
 #endif
 
